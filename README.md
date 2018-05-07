@@ -1,78 +1,48 @@
-# Jekyll-Bootstrap
+# Blog
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+> 使用GitHub Pages构建的博客系统，使用了默认的主题 [minima](https://jekyll.github.io/minima/) 并重构。
 
-## Usage
+GitHub Pages是免费的静态资源托管服务，依托GitHub提供高效，稳定，安全的用户体验，因此借助巨人的肩膀让自己看得更远。
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+GitHub Pages有如下限制：
 
-## Version
+- GitHub Pages空间大小不能超过1G（足够大了，写个文档、博客无需担心不够用）.
+- GitHub Pages提供每月100G的带宽（能超过这个，我的年薪也能上100W+了）.
+- GitHub Pages提供每小时10次构建（谁没事一会提交一个版本呢？）.
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+之前就想过通过GitHub管理自己的博客，直到最近才有空闲时间来做这个事情。  
+博客内容没有高深的内容，不期为别人提供什么帮助，纯粹是为了备忘，有可能是转载的，有可能是累赘重复的，欢迎吐槽。  
+如有侵犯您的相关权益，请及时联系我。
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+对于我博客中的任何内容，如有需要请随意拿走，不需要得到我的许可，只要你觉得有用就好。
 
-## Milestones
+如果你也想通过GitHub Pages构建自己的站点，可以直接fork本项目，我也会提供我使用GitHub Pages的相关经验供参考。
 
-[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
+分支介绍：
 
-### GOALS
+- master: 博客主项目。
+- init: 博客未自定义样式，仅仅覆盖了主题默认的一些配置项，增加了分页，SEO插件，准备自定义样式的阶段。
+- custom: 自定义了样式后的阶段。
 
-* No open PRs against master branch.
-* Squash some bugs.
-* Add some new features (low-hanging fruit).
-* Establish social media presence.
+Plugins
 
+- [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag): 网站搜索优化的支持 [usage](https://github.com/jekyll/jekyll-seo-tag#usage)
+- [`jekyll-feed`](https://github.com/jekyll/jekyll-feed): 提供feed.xml的支持
+- [`jekyll-paginate`](https://github.com/jekyll/jekyll-paginate): 提供简单分页的支持
 
-### Bugs
+Jekyll
 
-|Bug |Description
-|------|---------------
-|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
-|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
-|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
-|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
+GitHub Pages支持Jekyll编译静态文件。
 
-### Features
+Jekyll需要Ruby环境。
+[Jekyll官网](https://jekyllrb.com/)
 
-|Bug |Description
-|------|---------------
-|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
-|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
-|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
-|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
-
-### TODOS
-
-Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
-
-* Create twitter account. Add link / icon on jekyllbootstrap.com.
-* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
-* Announce state of project, announce roadmap(s), announce new versions as they’re released.
-
-## Contributing
+```shell
+~ $ gem install jekyll bundler
+~ $ jekyll new my-awesome-site
+~ $ cd my-awesome-site
+~/my-awesome-site $ bundle exec jekyll serve
+# => Now browse to http://localhost:4000
+```
 
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)

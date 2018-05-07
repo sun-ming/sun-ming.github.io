@@ -1,6 +1,9 @@
----
-theme :
-  name : bootstrap-3
----
-{% include JB/setup %}
-{% include themes/bootstrap-3/default.html %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "zh_CN" }}">
+{% include head.html %}
+<body>
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+</body>
+</html>
