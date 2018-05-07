@@ -1,0 +1,146 @@
+/*
+ * Application level styles
+ * (things that dont make sense in a toolkit :)
+ * copyright @Chinaxiang 2016
+ */
+ body {
+  background-color: #fff;
+/* note: this is a hack for ios iframe for bootstrap themes shopify page */
+/* this chunk of css is not part of the toolkit :) */
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+  font-size: 16px;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+/* docs overrides */
+.a {
+  background-color: #fff;
+  border-color: #d3e0e9;
+}
+.wordbreak,pre {
+  word-break:break-all;
+}
+/* general overrides */
+.by {
+  position: relative;
+}
+.b .c {
+  line-height: 1.4;
+}
+.d .close {
+  margin-top: 4px;
+}
+a {
+  color: #3097d1;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #216a94;
+  text-decoration: none;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+/* navbar */
+.os{
+  position: relative;
+}
+.app-navbar {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+.app-navbar .form-control {
+  box-shadow: none;
+}
+.app-navbar .e img {
+  width: 85px;
+}
+.app-navbar .f {
+  max-height: inherit;
+}
+.app-navbar .form-control {
+  border-color: #1C73A5;
+}
+.g {
+  margin-left: -12px;
+  padding-bottom: 10px !important;
+}
+.g .h:before {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .app-navbar .f:after {
+  height: auto;
+  }
+}
+/* profile bg height */
+@media (min-width: 480px) {
+  .ans {
+  height: 350px;
+  }
+}
+@media (min-width: 768px) {
+  .ans {
+  height: 450px;
+  }
+  .ans .qh {
+  width: 110px;
+  }
+}
+/*项目样式*/
+#projects .thumbnail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 310px;
+  height: 290px;
+  margin-bottom: 30px;
+  border-radius: 0;
+}
+.bw {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #3097d1;
+  background-image: linear-gradient(to bottom, #216a94, #3097d1);
+}
+.bw h1 {
+  margin-bottom: 5px;
+  font-size: 50px;
+  line-height: 1;
+}
+.bw p {
+  font-weight: 300;
+  line-height: 1.4;
+  color: #add6ed;
+}
+@media (min-width: 768px) {
+  .bw {
+  font-size: 24px;
+  }
+  .bw h1 {
+  font-size: 40px;
+  }
+}
+@media (min-width: 1260px) {
+  .bw h1,
+  .bw p {
+  max-width: 75%;
+  }
+  .bw h1 {
+  font-size: 50px;
+  }
+}
+.category {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 10px 0;
+}
