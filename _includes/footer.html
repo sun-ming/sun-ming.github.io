@@ -1,63 +1,56 @@
-<footer class="footer">
-  <div class="by alx">
-    <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <div class="headline">
-          <h3>{{ site.title | escape }}</h3>
-        </div>
-        <p>{{ site.description | escape }}</p>
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-      <div class="col-md-8 col-sm-6">
-        <div class="headline">
-          <h3>关注我</h3>
-        </div>
-        <ul class="social-media-list">
-          <li>
-          <img class="img-resonsive" width="128" height="128" src="{{ "/assets/img/asafvas.PNG" }}">
-          </li>
-          <!--<li>
-          <img class="img-resonsive" width="128" height="128" src="{{ "/assets/img/gh_1ff26c3a1b60_344.jpg" }}">
-          </li>-->
-        </ul>
-      </div>
+<footer class="site-footer">
+
+
+    <div class="wrapper">
+
+        <p class="description">
+            {% if site.description_footer %} {{site.description_footer}} {% endif %}
+        </p>
+        <p class="contact">
+            Contact me at: {% if site.github_username %}
+            <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %} {% if site.email %}
+            <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %} {% if site.weibo_username %}
+            <a href="http://weibo.com/{{site.weibo_username}}" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a> {% endif %} {% if site.zhihu_username %}
+            <a href="https://www.zhihu.com/people/{{site.zhihu_username}}" title="Zhihu"><i class="iconfont icon-daoruzhihu"></i></a> {% endif %} {% if site.twitter_username %}
+            <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> {% endif %} {% if site.facebook_username %}
+            <a href="https://www.facebook.com/{{site.facebook_username}}" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> {% endif %}  {% if site.linkedIn_username %}
+            <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> {% endif %} {% if site.dribbble_username %}
+            <a href=" https://dribbble.com/{{site.dribbble_username}}" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a> {% endif %}
+        </p>
+        <p>
+            本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+        </p>
+        <p class="power">
+            <span>
+                Site powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.
+            </span>
+            <span>
+                Theme designed by <a href="https://github.com/sun-ming">Sun-Ming</a>.
+            </span>
+        </p>
+        <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+        <p class="power">
+            <span>
+                <a href="#">富强</a>&nbsp;|&nbsp;
+                <a href="#">民主</a>&nbsp;|&nbsp;
+                <a href="#">文明</a>&nbsp;|&nbsp;
+                <a href="#">和谐</a>&nbsp;|&nbsp;
+                <a href="#">自由</a>&nbsp;|&nbsp;
+                <a href="#">平等</a>&nbsp;|&nbsp;
+                <a href="#">公正</a>&nbsp;|&nbsp;
+                <a href="#">法制</a>&nbsp;|&nbsp;
+                <a href="#">爱国</a>&nbsp;|&nbsp;
+                <a href="#">敬业</a>&nbsp;|&nbsp;
+                <a href="#">诚信</a>&nbsp;|&nbsp;
+                <a href="#">友善</a>
+            </span>
+        </p>
+        <p class="power">
+            <span>© 2017 孙铭 - <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备14013088号-8</a> 
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1264491401'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1264491401%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+            </span>
+        </p>
     </div>
-  </div>
 </footer>
-<div class="copyright">
-    <div class="by alx">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p>
-                  <a href="#">富强</a>&nbsp;|&nbsp;
-                  <a href="#">民主</a>&nbsp;|&nbsp;
-                  <a href="#">文明</a>&nbsp;|&nbsp;
-                  <a href="#">和谐</a>&nbsp;|&nbsp;
-                  <a href="#">自由</a>&nbsp;|&nbsp;
-                  <a href="#">平等</a>&nbsp;|&nbsp;
-                  <a href="#">公正</a>&nbsp;|&nbsp;
-                  <a href="#">法制</a>&nbsp;|&nbsp;
-                  <a href="#">爱国</a>&nbsp;|&nbsp;
-                  <a href="#">敬业</a>&nbsp;|&nbsp;
-                  <a href="#">诚信</a>&nbsp;|&nbsp;
-                  <a href="#">友善</a>
-              </p>
-              <p>© 2017 孙铭 - <a href="http://www.miitbeian.gov.cn/" target="_blank">豫ICP备14013048号-2</a> 
-                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1264491401'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1264491401%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-              </p>
-            </div>
-        </div>
-    </div>
-</div>
-<script src="{{ "/assets/js/application.js" | relative_url }}"></script>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
