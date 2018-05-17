@@ -33,43 +33,41 @@ type: page
 
 <hr/>
 
-* 2016.6.30 入职阿里巴巴天猫事业部
-* 2016.6 毕业于西安交通大学 软件工程硕士
-* 2015.12 获得2014-2015学年二等奖学金
-* 2015.7-2015.8 联想服务，前端开发工程师（实习生）
-* 2013.6 毕业于西安交通大学 理学院
-* 2001 获得西航四校总成绩年级排名第八名
+* 2017.10 得到可爱的小公主Sun++
+* 2017.1 与Honey-Yang走进婚姻的殿堂
+* 2012.6 毕业于西安石油大学 理学院 信息与计算科学专业 理学学士学位
+* 2010.12 获得西安石油大学 理学院 二等奖学金
 
 ## 联系我
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
-* [Twitter](https://twitter.com/gaohaoyang126)
-* [豆瓣](https://www.douban.com/people/42525035/)
-* [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
+* GitHub：[sun-ming](https://github.com/sun-ming)
+* email：416219573@qq.com
+* [Weibo](http://weibo.com/sun-ming)
+* [知乎](https://www.zhihu.com/people/sun-ming)
+* [Facebook](https://www.facebook.com/sun-ming)
+* [Twitter](https://twitter.com/sun-ming)
+* [豆瓣](https://www.douban.com/people/sun-ming/)
+* [豆瓣音乐人-孙铭的小站](https://site.douban.com/sun-ming/)
 
 ## 关于本站
 
-**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/sun-ming/sun-ming.github.io](https://github.com/sun-ming/sun-ming.github.io)**
 
 ~欢迎使用~
 
-欢迎大家提一些对本站主题的建议，可以直接在下面留言或者新建一个 [Issue](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues)。
+欢迎大家提一些对本站主题的建议，可以直接在下面留言或者新建一个 [Issue](https://github.com/sun-ming/sun-ming.github.io/issues)。
 
 ### Update Log
 
 *2017.2.28*
 
-- `[^]` 修复目录滚动 bug [#22](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/22), [#48](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/48)
+- `[^]` 修复目录滚动 bug 
 
 *2016.6.20*
 
 * `[+]` 在文章页中添加上一篇和下一篇文章链接。
 * `[^]` 修改 font-family 顺序，避免微软雅黑将单引号解析为全角。
-* `[^]` 修复标签云算法中被除数为零的 bug。[#26](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/26), [#28](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/28), [#30](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/30)
+* `[^]` 修复标签云算法中被除数为零的 bug。
 
 *2016.5.11 v2.0.1*
 
@@ -99,7 +97,7 @@ type: page
 * `[^]` 使用 Masonry 重写了 Demo 页中的瀑布流布局，响应式交互体验更好
 * `[-]` 去除了 jQuery 和 BootStrap，使得加载速度更快
 
-* 2016.3-2016.4 进行了一次大的改版和重构，详见 [README](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/README.md) 和博文 [对这个 jekyll 博客主题的改版和重构](http://gaohaoyang.github.io/2016/03/12/jekyll-theme-version-2.0/)
+* 2016.3-2016.4 进行了一次大的改版和重构。
 * 2015.3-2015.4 完成了这个博客主题的第一版。
 
 ## 友情链接
