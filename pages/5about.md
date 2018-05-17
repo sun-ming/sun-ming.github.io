@@ -13,9 +13,14 @@ type: page
 
 <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
-就职于阿里巴巴集团天猫事业部，前端开发工程师，花名川轼。
+就职于某神秘的通信类国企大数据分析事业部，Java大数据开发工程师，江湖人称孙老师。
 
-主要兴趣集中在前端开发，大前端的概念深入我心。将更多的业务逻辑放在前端中，这很有趣。同时，将自己构想的内容实现出来，这种感觉很愉快。
+主要兴趣集中在大数据的ETL和分析挖掘，对ML算法有深厚的兴趣，大数据、分布式和并行计算等思想深入我心。
+
+将更多的数据处理和分析挖掘放在后端和集群中进行处理，这很有趣。同时，将自己构想的内容实现出来，这种感觉很愉快。
+
+曾经有过JavaWeb(SpringMVC+Spring+MyBatis)开发经验，熟练使用Java常用的框架和类库，避免工作中重复发明轮子。
+可以进行Restful接口的开发。Dubbox/SpringBoot/SpringCloud也可轻松上手。
 
 热爱美好的事物，热爱摇滚乐，组过乐队，卖过唱。
 
