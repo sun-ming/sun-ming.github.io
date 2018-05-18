@@ -353,13 +353,13 @@ Thanks these friends!!!
 
 ### 2017.2.28
 
-- `[^]` fix smoothScroll bug in Tencent webview like wechat and qq.  [#22](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/22), [#48](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/48)
+- `[^]` fix smoothScroll bug in Tencent webview like wechat and qq.  
 
 ### 2016.6.20
 
 * `[+]` Add next post and previous post link in post page.
 * `[^]` Change the sort of font-family to avoid full-width half-width characters mistake.
-* `[^]` Fix bug in tags cloud when division by zero. [#26](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/26), [#28](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/28), [#30](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues/30)
+* `[^]` Fix bug in tags cloud when division by zero. 
 
 ### 2016.5.11 v2.0.1
 
@@ -389,8 +389,6 @@ Thanks these friends!!!
 * `[^]` Rewrite the demo page with Masonry
 * `[-]` Remove jQuery and BootStrap
 
-About my old blog theme, I won't maintain any more. And I put the code at  [Gaohaoyang/old-blog](https://github.com/Gaohaoyang/old-blog).
-
 ## License
 
-[MIT License](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/LICENSE.md)
+[MIT License](https://github.com/sun-ming/sun-ming.github.io/blob/master/LICENSE.md)
