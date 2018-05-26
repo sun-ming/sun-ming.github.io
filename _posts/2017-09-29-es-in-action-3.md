@@ -1,9 +1,13 @@
 ---
 layout: post
-title: Elasticsearch 实践三
-tags: search
-date: 2017-09-29 09:45:00 +800
+title: "Elasticsearch 实践三"
+date: 2017-09-29 09:45:00
+categories: search
+tags: search java java高级
 ---
+
+* content
+{:toc}
 
 前面对索引，集群有了大概的认识，本文我们将主要探讨一下搜索的原理，看ES是怎么分析和检索数据的。
 
@@ -14,6 +18,9 @@ Elasticsearch中的数据可以大致分为两种类型：确切值 和 全文�
 确切值 `Foo`  和 `foo`  就并不相同。确切值 `2014`  和 `2014-09-15`  也不相同。
 
 全文文本，从另一个角度来说是文本化的数据(常常以人类的语言书写)，比如一篇推文(Twitter的文章)或邮件正文。
+
+
+
 
 确切值是很容易查询的，因为结果是二进制的 -- 要么匹配，要么不匹配。
 

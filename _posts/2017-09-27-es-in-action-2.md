@@ -1,15 +1,22 @@
 ---
 layout: post
-title: Elasticsearch 实践二
-tags: search
-date: 2017-09-27 17:03:00 +800
+title: "Elasticsearch 实践二"
+date: 2017-09-27 17:03:00
+categories: search
+tags: search java java高级
 ---
+
+* content
+{:toc}
 
 因为我们要重构公司现有的搜索，考虑在前的肯定是架构层面优先，比如可靠性，扩展性，所以本系列文章会优先描述架构层面的内容，至于使用后续可以慢慢探究。
 
 本系列文章之间可能会有重复赘述的内容，也是为了更好的表述清楚关联关系。
 
 前面介绍了集群，索引，类型等相关的内容，本文继续探讨集群，索引相关的内容。
+
+
+
 
 ## 再议分片
 

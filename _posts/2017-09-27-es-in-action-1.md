@@ -1,9 +1,13 @@
 ---
 layout: post
-title: Elasticsearch 实践一
-tags: search
-date: 2017-09-27 10:52:00 +800
+title: "Elasticsearch 实践一"
+date: 2017-09-27 10:52:00
+categories: search
+tags: search java java高级
 ---
+
+* content
+{:toc}
 
 在前面两篇文章中我们知道了ES的基本概念和安装，还没有真正使用ES, 本篇文章就以一个实例来简单入门ES的使用。
 
@@ -59,6 +63,9 @@ date: 2017-09-27 10:52:00 +800
 </tr>
 </tbody>
 </table>
+
+
+
 
 ## 索引
 
