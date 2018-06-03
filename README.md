@@ -4,7 +4,7 @@
 
 With the escalation of jekyll version, but I also want to reconstruct my older blog theme, so I did reconstruction and added some features recently. My new blog theme will still be stored in this repository. I will also use this theme in the future. Now I have done basically, then I will focus on issues that users opend to make theme better.
 
-**My Blog Url: [http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)**. If you like this theme, you can give me a star to encourage me. Welcome everyone to use it.
+**My Blog Url: [http://sun-ming.github.io/](http://sun-ming.github.io/)**. If you like this theme, you can give me a star to encourage me. Welcome everyone to use it.
 
 ## Content
 
