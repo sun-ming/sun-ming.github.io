@@ -299,10 +299,9 @@ If there is nothing wrong, push code to your github!
 
 You can also donate me for a coffee, and I'll do better. Thanks.
 
-|                                                                     PayPal                                                                     |                                 Wechat Pay                                  |                                   Alipay                                    |
-|:----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| [![PayPal](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)<br>Donate via PayPal ](https://www.paypal.me/gaohaoyang) | ![wechat](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bkdw3bslj206z06q3z6.jpg) | ![alipay](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bk8ikzoij20740743z5.jpg) |
-
+|                                 Wechat Pay                                  |                                   Alipay                                    |
+|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
+| ![wechat](https://sun-ming.github.io/assets/images/WechatPay.jpg)           | ![alipay](https://sun-ming.github.io/assets/images/Alipay.jpg)              |
 
 Thanks these friends!!!
 
