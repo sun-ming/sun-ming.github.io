@@ -44,10 +44,10 @@ With the escalation of jekyll version, but I also want to reconstruct my older b
 First of all, let's see previews.
 
 Index Page
-![index](https://i.loli.net/2018/06/04/5b14aab9332a3.jpg)
+![index](https://sun-ming.github.io/assets/images/readme/index.jpg)
 
 Post Page
-![post](https://i.loli.net/2018/06/04/5b14aab941cea.jpg)
+![post](https://sun-ming.github.io/assets/images/readme/page.jpg)
 
 ## Page Details
 
@@ -104,7 +104,7 @@ More info to see [syntax-highlighter-changed](https://jekyllrb.com/docs/upgradin
 
 ### Light Shadow
 
-![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
+![light](https://sun-ming.github.io/assets/images/readme/light.jpg)
 
 You can see the white shadow on the current item in the navbar. I call this light shadow.
 
@@ -112,13 +112,13 @@ You can see the white shadow on the current item in the navbar. I call this ligh
 
 Of course, I have done a very good mobile adaptation.
 
-![mobile](https://i.loli.net/2018/06/04/5b14ac7c283ba.jpg)
+![mobile](https://sun-ming.github.io/assets/images/readme/phone.jpg)
 
 ### Footer
 
 **Welcome to use this blog theme, but please keep the theme author info at footer.** Theme designed by [Sun-Ming](https://github.com/sun-ming).
 
-![footer](https://i.loli.net/2018/06/04/5b14adee2ad41.jpg)
+![footer](https://sun-ming.github.io/assets/images/readme/footer.jpg)
 
 ### Statistical Analysis
 
@@ -301,7 +301,7 @@ You can also donate me for a coffee, and I'll do better. Thanks.
 
 |                                 Wechat Pay                                  |                                   Alipay                                    |
 |:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| ![wechat](https://sun-ming.github.io/assets/images/WechatPay.jpg)           | ![alipay](https://sun-ming.github.io/assets/images/Alipay.jpg)              |
+| ![wechat](https://sun-ming.github.io/assets/images/readme/WechatPay.jpg)    | ![alipay](https://sun-ming.github.io/assets/images/readme/Alipay.jpg)       |
 
 Thanks these friends!!!
 

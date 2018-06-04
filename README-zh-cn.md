@@ -42,10 +42,10 @@
 先上预览图：
 
 主页
-![index](https://i.loli.net/2018/06/04/5b14aab9332a3.jpg)
+![index](https://sun-ming.github.io/assets/images/readme/index.jpg)
 
 文章页
-![post](https://i.loli.net/2018/06/04/5b14aab941cea.jpg)
+![post](https://sun-ming.github.io/assets/images/readme/page.jpg)
 
 ## 各部分详情
 
@@ -101,7 +101,7 @@ disqus_shortname: xxx
 
 ### 灯泡效果
 
-![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
+![light](https://sun-ming.github.io/assets/images/readme/light.jpg)
 
 可以看到导航按钮高亮时，下面的阴影效果，我把这个称为灯泡效果。
 
@@ -109,12 +109,12 @@ disqus_shortname: xxx
 
 完美适配移动端。
 
-![mobile](https://i.loli.net/2018/06/04/5b14ac7c283ba.jpg)
+![mobile](https://sun-ming.github.io/assets/images/readme/phone.jpg)
 
 ### Footer
 
 **欢迎使用这个主题，使用时请保留 footer 上的模板主题来源。** Theme designed by [Sun-Ming](https://github.com/sun-ming).
-![footer](https://i.loli.net/2018/06/04/5b14adee2ad41.jpg)
+![footer](https://sun-ming.github.io/assets/images/readme/footer.jpg)
 
 ### 统计
 
@@ -313,7 +313,7 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
 
 |                                 微信支付                                    |                                   支付宝                                    |
 |:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| ![wechat](https://sun-ming.github.io/assets/images/WechatPay.jpg)           | ![alipay](https://sun-ming.github.io/assets/images/Alipay.jpg)              |
+| ![wechat](https://sun-ming.github.io/assets/images/readme/WechatPay.jpg)    | ![alipay](https://sun-ming.github.io/assets/images/readme/Alipay.jpg)       |
 
 
 感谢捐赠的小伙伴！！！
