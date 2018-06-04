@@ -4,6 +4,7 @@ title: "Elasticsearch 实践三"
 date: 2017-09-29 09:45:00
 categories: search
 tags: search java java高级
+author: Sun-Ming
 ---
 
 * content
