@@ -42,10 +42,10 @@
 先上预览图：
 
 主页
-![index](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bdli86awj211k0oyqen.jpg)
+![index](https://i.loli.net/2018/06/04/5b14aab9332a3.jpg)
 
 文章页
-![post](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bdmzb9v6j210p0j7gwn.jpg)
+![post](https://i.loli.net/2018/06/04/5b14aab941cea.jpg)
 
 ## 各部分详情
 
@@ -109,12 +109,12 @@ disqus_shortname: xxx
 
 完美适配移动端。
 
-![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
+![mobile](https://i.loli.net/2018/06/04/5b14ac7c283ba.jpg)
 
 ### Footer
 
-**欢迎使用这个主题，使用时请保留 footer 上的模板主题来源。** Theme designed by [HyG](https://github.com/gaohaoyang).
-![footer](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bepd8002j20hl02ct95.jpg)
+**欢迎使用这个主题，使用时请保留 footer 上的模板主题来源。** Theme designed by [Sun-Ming](https://github.com/sun-ming).
+![footer](https://i.loli.net/2018/06/04/5b14adee2ad41.jpg)
 
 ### 统计
 
@@ -171,10 +171,10 @@ gem install jekyll
 
 ```yml
 # Site settings
-title: HyG
-brief-intro: Front-end Dev Engineer
+title: Sun-Ming
+brief-intro: BigData/JavaWeb Advanced Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "https://sun-ming.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 ```
 
 #### 链接信息
@@ -183,16 +183,16 @@ url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
 
 ```yml
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
-dribbble_username:
+twitter_username: sun-ming
+facebook_username: sun-ming
+github_username: sun-ming
+email: 416219573@qq.com
+weibo_username: sun-ming
+zhihu_username: sun-ming
+linkedIn_username: sun-ming
+dribbble_username: sun-ming
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 本站记录我软件开发的旅途风景！
 ```
 
 #### 评论信息
@@ -205,8 +205,8 @@ description_footer: 本站记录我前端之旅的沿途风景！
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: gaohaoyang
+duoshuo_shortname: #sun-ming
+disqus_shortname: #sun-ming
 ```
 
 运行成功后，可以在 disqus 或 多说 的后台管理页看到相关信息。
@@ -222,8 +222,8 @@ disqus_shortname: gaohaoyang
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+baidu_tongji_id: #cf8506e0ef223e57ff6239944e5d46a4
+google_analytics_id: #UA-72449510-4 # google 分析追踪id
 ```
 
 成功后，进入自己的百度统计或 Google Analytics 后台管理，即可看到网站的访问量、访客等相关信息。
@@ -239,7 +239,7 @@ title:  "对这个 jekyll 博客主题的改版和重构"
 date:   2016-03-12 11:40:18 +0800
 categories: jekyll
 tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
-author: Haoyang Gao
+author: Sun-Ming
 mathjax: true
 ---
 ```
@@ -290,7 +290,7 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
 
 在本地访问 localhost:4000 即可看到博客主页。
 
-若安装了 Foxit 福昕pdf阅读器可能会占用4000端口，关闭 Foxit服务 或切换 jekyll 端口即可解决。详情见文章：[对这个 jekyll 博客主题的改版和重构](http://gaohaoyang.github.io/2016/03/12/jekyll-theme-version-2.0/)
+若安装了 Foxit 福昕pdf阅读器可能会占用4000端口，关闭 Foxit服务 或切换 jekyll 端口即可解决。详情见文章：[对这个 jekyll 博客主题的改版和重构](http://sun-ming.github.io/2016/03/12/jekyll-theme-version-2.0/)
 
 若正在使用全局代理，可能会报错502，关闭全局代理即可。
 

@@ -44,10 +44,10 @@ With the escalation of jekyll version, but I also want to reconstruct my older b
 First of all, let's see previews.
 
 Index Page
-![index](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bdli86awj211k0oyqen.jpg)
+![index](https://i.loli.net/2018/06/04/5b14aab9332a3.jpg)
 
 Post Page
-![post](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bdmzb9v6j210p0j7gwn.jpg)
+![post](https://i.loli.net/2018/06/04/5b14aab941cea.jpg)
 
 ## Page Details
 
@@ -112,13 +112,13 @@ You can see the white shadow on the current item in the navbar. I call this ligh
 
 Of course, I have done a very good mobile adaptation.
 
-![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
+![mobile](https://i.loli.net/2018/06/04/5b14ac7c283ba.jpg)
 
 ### Footer
 
-**Welcome to use this blog theme, but please keep the theme author info at footer.** Theme designed by [HyG](https://github.com/gaohaoyang).
+**Welcome to use this blog theme, but please keep the theme author info at footer.** Theme designed by [Sun-Ming](https://github.com/sun-ming).
 
-![footer](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bepd8002j20hl02ct95.jpg)
+![footer](https://i.loli.net/2018/06/04/5b14adee2ad41.jpg)
 
 ### Statistical Analysis
 
@@ -171,10 +171,10 @@ Shows at site header part.
 
 ```yml
 # Site settings
-title: HyG
-brief-intro: Front-end Dev Engineer
+title: Sun-Ming
+brief-intro: BigData/JavaWeb Advanced Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "https://sun-ming.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 ```
 
 #### Link info
@@ -183,16 +183,16 @@ Mainly shows at the footer of the site.
 
 ```yml
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
-dribbble_username:
+twitter_username: sun-ming
+facebook_username: sun-ming
+github_username: sun-ming
+email: 416219573@qq.com
+weibo_username: sun-ming
+zhihu_username: sun-ming
+linkedIn_username: sun-ming
+dribbble_username: sun-ming
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 本站记录我软件开发的旅途风景！
 ```
 
 #### Comments info
@@ -204,8 +204,8 @@ Visit https://disqus.com/ or http://duoshuo.com/. And follow the prompts at the 
 ```yml
 # comments
 # two ways to comment, only choose one, and use your own short name
-duoshuo_shortname: #hygblog
-disqus_shortname: xxxx
+duoshuo_shortname: #sun-ming
+disqus_shortname: #sun-ming
 ```
 
 When you done, you can also see the comments info at disqus or duoshuo admin console.
@@ -223,8 +223,8 @@ Of course, if you don't want any statistical and analysis info, you can type not
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf850xxxxxxxxxxxxxxxx
-google_analytics_id: UA-7xxxxxx-4 # google 分析追踪id
+baidu_tongji_id: #cf8506e0ef223e57ff6239944e5d46a4
+google_analytics_id: #UA-72449510-4 # google 分析追踪id
 ```
 
 When you done, you can see UV, PV, location etc. info at your own Google Analytics or Baidu Statistic console.
@@ -240,7 +240,7 @@ title:  "对这个 jekyll 博客主题的改版和重构"
 date:   2016-03-12 11:40:18 +0800
 categories: jekyll
 tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
-author: Haoyang Gao
+author: Sun-Ming
 mathjax: true
 ---
 ```
