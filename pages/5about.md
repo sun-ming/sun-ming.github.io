@@ -21,7 +21,7 @@ type: page
 
 曾经有过**JavaWeb开发经验**，熟练使用**Java常用的框架和类库**，避免工作中重复发明轮子。
 
-可以进行Restful接口、WebService接口、中间件等**java后台开发工作**。
+可以进行开发Restful接口、WebService接口、中间件等**java后台开发工作**。
 
 多年开发工作经验，有极强的**Troubleshooting能力**。
 
