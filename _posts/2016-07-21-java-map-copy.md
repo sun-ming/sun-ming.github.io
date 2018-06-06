@@ -25,6 +25,9 @@ public class CopyMap {
 }
 ```
 
+
+
+
 上面程序的期望输出值是，mapFrist的值均为1，
 但是实际上输出结果为：
 ```
@@ -65,3 +68,5 @@ public class CopyMap {
 {key1=1}
 {key1=1}
 ```
+
+版权声明：本文为博主原创文章，未经博主允许不得转载。
