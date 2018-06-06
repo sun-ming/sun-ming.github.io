@@ -175,9 +175,9 @@ val rdd3 = rdd1.map(rdd2DataBroadcast...)
 比如如下两幅图，就是典型的例子，分别基于reduceByKey和groupByKey进行单词计数。其中第一张图是groupByKey的原理图，可以看到，没有进行任何本地聚合时，所有数据都会在集群节点之间传输；第二张图是reduceByKey的原理图，可以看到，每个节点本地的相同key数据，都进行了预聚合，然后才传输到其他节点上进行全局聚合。
 
 groupByKey实现wordcount原理
-![image][https://sun-ming.github.io/assets/images/sparktuning/group-by-key-wordcount.jpg]
+![group-by-key-wordcount](https://sun-ming.github.io/assets/images/sparktuning/group-by-key-wordcount.jpg)
 reduceByKey实现wordcount原理
-![image][https://sun-ming.github.io/assets/images/sparktuning/reduce-by-key-wordcount.jpg]
+![reduce-by-key-wordcount](https://sun-ming.github.io/assets/images/sparktuning/reduce-by-key-wordcount.jpg)
 ### 原则六：使用高性能的算子
 
 除了shuffle相关的算子有优化原则之外，其他的算子也都有着相应的优化原则。
@@ -210,7 +210,7 @@ repartitionAndSortWithinPartitions是Spark官网推荐的一个算子，官方�
 
 因此对于上述情况，如果使用的外部变量比较大，建议使用Spark的广播功能，对该变量进行广播。广播后的变量，会保证每个Executor的内存中，只驻留一份变量副本，而Executor中的task执行时共享该Executor中的那份变量副本。这样的话，可以大大减少变量副本的数量，从而减少网络传输的性能开销，并减少对Executor内存的占用开销，降低GC的频率。
 
-####广播大变量的代码示例
+#### 广播大变量的代码示例
 
 ```
 // 以下代码在算子函数中，使用了外部的变量。
@@ -267,7 +267,7 @@ Java中，有三种类型比较耗费内存：
 Spark作业基本运行原理
 
 ### Spark基本运行原理
-![image][https://sun-ming.github.io/assets/images/sparktuning/spark-base-mech.jpg]
+![spark-base-mech](https://sun-ming.github.io/assets/images/sparktuning/spark-base-mech.jpg)
 详细原理见上图。我们使用spark-submit提交一个Spark作业之后，这个作业就会启动一个对应的Driver进程。根据你使用的部署模式（deploy-mode）不同，Driver进程可能在本地启动，也可能在集群中某个工作节点上启动。Driver进程本身会根据我们设置的参数，占有一定数量的内存和CPU core。而Driver进程要做的第一件事情，就是向集群管理器（可以是Spark Standalone集群，也可以是其他的资源管理集群，美团•大众点评使用的是YARN作为资源管理集群）申请运行Spark作业需要使用的资源，这里的资源指的就是Executor进程。YARN集群管理器会根据我们为Spark作业设置的资源参数，在各个工作节点上，启动一定数量的Executor进程，每个Executor进程都占有一定数量的内存和CPU core。
 
 在申请到了作业执行所需的资源之后，Driver进程就会开始调度和执行我们编写的作业代码了。Driver进程会将我们编写的Spark作业代码分拆为多个stage，每个stage执行一部分代码片段，并为每个stage创建一批task，然后将这些task分配到各个Executor进程中执行。task是最小的计算单元，负责执行一模一样的计算逻辑（也就是我们自己编写的某个代码片段），只是每个task处理的数据不同而已。一个stage的所有task都执行完毕之后，会在各个节点本地的磁盘文件中写入计算中间结果，然后Driver就会调度运行下一个stage。下一个stage的task的输入数据就是上一个stage输出的中间结果。如此循环往复，直到将我们自己编写的代码逻辑全部执行完，并且计算完所有的数据，得到我们想要的结果为止。
