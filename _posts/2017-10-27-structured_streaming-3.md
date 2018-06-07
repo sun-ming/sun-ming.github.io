@@ -100,6 +100,7 @@ df.selectExpr("CAST(key AS STRING)", "CAST(value AS STRING)")
 ### Schema信息
 
 读取后的数据的Schema是固定的，包含的列如下：
+
 |Column   		|	Type   	|说明	|
 | :-----: 		| :----:	|:----: |
 |key 			|	binary 	|	信息的key|
@@ -117,7 +118,8 @@ df.selectExpr("CAST(key AS STRING)", "CAST(value AS STRING)")
 * kafka.bootstrap.servers kafka的服务器配置，host:post形式，用逗号进行分割，如host1:9000,host2:9000
 * assign，以json的形式指定topic信息
 * subscribe，通过逗号分隔，指定topic信息
-* subscribePattern，通过java的正则指定多个topic 
+* subscribePattern，通过java的正则指定多个topic
+
 assign、subscribe、subscribePattern同时之中能使用一个。
 
 其他比较重要的参数有：
