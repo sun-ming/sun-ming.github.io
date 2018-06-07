@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "春秋·左传·闵公元年"
-date: 2018-03-02 21:45:00
+date: 2018-06-07 22:08:00
 categories: 春秋 左传
 tags: 春秋 左传
 author: Sun-Ming
