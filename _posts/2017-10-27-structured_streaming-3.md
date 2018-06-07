@@ -14,6 +14,9 @@ author: Sun-Ming
 
 Structured Streaming最主要的生产环境应用场景就是配合kafka做实时处理，不过在Strucured Streaming中kafka的版本要求相对搞一些，只支持0.10及以上的版本。就在前一个月，我们才从0.9升级到0.10，终于可以尝试structured streaming的很多用法，很开心~
 
+
+
+
 ## 引入
 
 如果是maven工程，直接添加对应的kafka的jar包即可:
