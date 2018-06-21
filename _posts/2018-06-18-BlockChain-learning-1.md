@@ -42,6 +42,7 @@ author: Sun-Ming
 
 
 而去中心化的处理方式就要显得简单很多，你只需要和卖家交换钱和手机，然后双方都声称完成了这笔交易，就OK了。
+
 ![642.gif](https://raw.githubusercontent.com/sun-ming/image-repository/master/image_blog/BlockChain_learning_1/642.gif)
 
 
@@ -66,6 +67,7 @@ author: Sun-Ming
 第一次听说这个问题居然是在TCP的课上，大致说的是有两个相距很远的军队要传递信息，红军派遣一个信使去跟蓝军说：“你他娘的把意大利炮拿出来！”。蓝军收到信息后又派了一个信使去红军说：“收到指令！”。然后红军又派一个信使去蓝军说：“知道你收到指令了！”。然后蓝军又派一个信使去红军说：“知道你知道我收到指令了！”。然后红军又派一个信使去蓝军说：“知道你知道我知道你收到指令了！”……然后就没完没了了。
 
 ![643.jpg](https://raw.githubusercontent.com/sun-ming/image-repository/master/image_blog/BlockChain_learning_1/643.jpg)
+
 在分布式计算中在异步系统和不可靠的通道上达到一致性是不可能的
 
 
@@ -91,12 +93,14 @@ author: Sun-Ming
 
 
 我们先来建立一个去中心化的系统，为了方便理解，我们来看一个简单的**去中心化借贷模型**：如果A借了B 100块钱，这个时候，A在人群中大喊“我是A，我借给了B 100块钱！”，B也在人群中大喊“我是B，A借给了我100块钱！”，此时路人甲乙丙丁都听到了这些消息，因此所有人都在心中默默记下了“A借给了B100块钱”。
+
 ![644.gif](https://raw.githubusercontent.com/sun-ming/image-repository/master/image_blog/BlockChain_learning_1/644.gif)
 
 
 你看，这个时候一个去中心化的系统就建立起来了，这个系统中不需要银行，也不需要借贷协议和收据，严格来说，甚至不需要人与人长久的信任关系（比如B突然又改口说“我不欠A钱！”，这个时候人民群众就会站出来说“不对，我的小本本上记录了你某天借了A100块钱！”）。
 
 ![645.jpg](https://raw.githubusercontent.com/sun-ming/image-repository/master/image_blog/BlockChain_learning_1/645.jpg)
+
 去中心化借贷模型
 
 
@@ -125,6 +129,7 @@ author: Sun-Ming
 我们再抽象一点，某人喊话的内容的格式就变成了：“这句话编号xxx，上一句话的编号是yyy，我给了某某1个查克拉！”，**这样就解决了伪造的问题**。其实上述模型就变成一个简化的中本聪第一版比特币区块链协议：
 
 ![647.jpg](https://raw.githubusercontent.com/sun-ming/image-repository/master/image_blog/BlockChain_learning_1/647.jpg)
+
 查克拉模型和中本聪第一版区块链协议对比图
 
 
@@ -138,6 +143,7 @@ author: Sun-Ming
 
 
 当这个规则定下以后，这个系统中一定会出现一批人，他们开始竖着耳朵监听周围发出的声音，以抢占第一个记账的权利。对的，你脑海中是不是又浮现出了“比特币挖矿”的字眼？
+
 ![648.gif](https://raw.githubusercontent.com/sun-ming/image-repository/master/image_blog/BlockChain_learning_1/648.gif)
 
     
